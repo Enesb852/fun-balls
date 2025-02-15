@@ -7,7 +7,7 @@ public class Window {
 	
 	public static void main(String[] args)
 	{
-		JFrame  window = new JFrame("2D GAME");
+		JFrame  window = new JFrame("fun balls");
 		Game game= new Game(50);
 		
 		window.add(game);
